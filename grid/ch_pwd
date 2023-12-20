@@ -1,0 +1,9 @@
+#!/bin/bash
+VALID_PASSWORD=password123
+echo "Enter a password"
+read -r USER_INPUT
+if [ "$USER_INPUT" == "$VALID_PASSWORD" ];then
+    echo "Access"
+else
+    echo "no"
+fi
